@@ -1,0 +1,17 @@
+[
+  {
+    "severity": "Medium",
+    "description": "Inline JS event handler: `onload`",
+    "context": "<link href=\"styles.css\" media=\"print\" onload=\"this.media='all'\" rel=\"stylesheet\"/>"
+  },
+  {
+    "severity": "High",
+    "description": "External JS from: //cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
+    "context": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"
+  },
+  {
+    "severity": "High",
+    "description": "External JS from: //cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
+    "context": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
+  }
+]
